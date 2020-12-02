@@ -1,5 +1,5 @@
 import { messages } from '@sevone/insight-wdk';
-import { VariablesType } from './config-to-variables';
+//import { VariablesType } from './config-to-variables';
 
 import defaultConfiguration  from './default-configuration';
  
@@ -7,7 +7,7 @@ let configuration = defaultConfiguration;
 
 export const widgetWillMount = ({ configuration, onMessage }) => {
   
-  async function fetchToken(configuration): Promise<DataType> {
+  async function fetchToken(configuration): Promise<any> {
 
     var { username, password, nmsIp, token } = configuration;
 
