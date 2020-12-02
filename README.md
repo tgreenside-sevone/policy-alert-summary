@@ -4,8 +4,8 @@ Clone the project, then within the policy-alert-summary directory, run "wdk-cli 
 
 When you are ready to publish your widget, first pack it:
 
-    wdk-cli pack
+    wdk-cli pack <widget name>
 
 Then publish it to your DI system (update your file name, registry info, and tenant as require for your system:
 
-    wdk-cli publish --skip-ssl --file .tgz --registry https://10.128.9.172/wdkserver --tenant SevOne
+    wdk-cli publish --skip-ssl --file <widget name>.tgz --registry https://10.128.9.172/wdkserver --tenant SevOne
