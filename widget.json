@@ -1,0 +1,6 @@
+{
+  "name": "policy-alert-summary",
+  "version": "1.0.7",
+  "title": "Policy Alert Summary",
+  "description": "Analyzes Alerts and Summarizes by Policy Name"
+}
